@@ -1,10 +1,10 @@
 body {
   background-color: pink;
+  margin: 0;
 }
 
-#ikon img {
-  width: 5vw;
-  margin-left: 2vw;
+header {
+  height: 10vw;
 }
 
 nav {
@@ -13,6 +13,10 @@ nav {
   justify-content: space-between;
 }
 
+#forside_header {
+  position: fixed;
+  width: 100vw;
+}
 
 header h1 {
   font-family: 'Raleway', sans-serif;
@@ -64,11 +68,26 @@ header h3 {
   justify-content: flex-start;
 }
 
+#ikon img {
+  width: 5vw;
+  margin-left: 2vw;
+}
 
 /******** LANDING PAGE ********/
+#forside {
+  width: 100vw;
+}
 
+#splash img {
+  width: 66vw;
+}
 
-
+#forside_tekst {
+  width: 30vw;
+  position: absolute;
+  top: 20vw;
+  right: 10vw;
+}
 
 
 
