@@ -88,10 +88,16 @@ header h3 {
 }
 
 #forside_tekst {
-    width: 30vw;
+    width: 32vw;
     position: absolute;
     top: 22vw;
-    right: 8vw;
+    right: 4vw;
+}
+
+#forside_tekst p {
+    color: white;
+    font-size: 1.6vw;
+    line-height: 2vw;
 }
 
 
