@@ -5,8 +5,8 @@ body {
 #ikon img {
     width: 5vw;
     margin-left: 2vw;
-    margin: 0;
 }
+
 
 header {
     height: 10vw;
@@ -90,8 +90,8 @@ header h3 {
 #forside_tekst {
     width: 30vw;
     position: absolute;
-    top: 20vw;
-    right: 10vw;
+    top: 22vw;
+    right: 8vw;
 }
 
 
