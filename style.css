@@ -273,15 +273,38 @@ header h3 {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+
+    text-align: center;
 }
 
 .kategori img {
     border-radius: 50%;
-    width: 6vw;
+    width: 80px;
+    opacity: 0.5;
+}
+
+.kategori img:hover {
+    opacity: 1;
+}
+
+.kategori img:active {
+    opacity: 1;
+    font-weight: bold;
 }
 
 
+.hide {
+    opacity: 0;
+    pointer-events: none;
+}
 
+.produkter {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
 
 
 
