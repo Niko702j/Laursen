@@ -18,7 +18,7 @@ const endPoint = ("https://spreadsheets.google.com/feeds/list/1KlZEqdOHjQesQCn49
 function start() {
     loadData();
 
-    //    addEventListenersToButtons();
+    addEventListenersToButtons();
 }
 
 
@@ -47,4 +47,25 @@ function visProdukter() {
 
         }
     })
+}
+
+function addEventListenersToButtons() {
+
+    document.querySelectorAll(".filter").forEach(elm => {
+        elm.addEventListener("click", filtrering);
+    })
+}
+
+function filtrering() {
+    console.log("filtrer");
+
+    document.querySelectorAll(".filter").forEach(elm => {
+        elm.classList.remove("button_active");
+    })
+
+    filter = this.dataset.kategori;
+    visProdukter();
+
+    this.classList.add("button_active");
+
 }
