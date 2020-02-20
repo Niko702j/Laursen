@@ -1,19 +1,67 @@
 body {
-    background-color: pink;
+  background-color: pink;
 }
 
 #ikon img {
-    width: 5vw;
-    width: 5vw;
+  width: 5vw;
+  margin-top: 0.5vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
 header h1 {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 2vw;
+  text-align: center;
+  margin: 0.8vw;
+  line-height: 0.1vw;
 }
 
+header h2 {
+  font-family: 'white_angelicaregular';
+  font-size: 1.5vw;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  line-height: 0.1vw;
+}
 
+header h3 {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+header img {
+  height: 2vw;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#knapper {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1vw;
+}
+
+#ikon {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
 
 /******** LANDING PAGE ********/
@@ -308,10 +356,10 @@ header h1 {
 
 
 @font-face {
-    font-family: 'white_angelicaregular';
-    src: url('whiteangelica-webfont.woff2') format('woff2'),
-        url('whiteangelica-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'white_angelicaregular';
+  src: url('whiteangelica-webfont.woff2') format('woff2'),
+    url('whiteangelica-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
