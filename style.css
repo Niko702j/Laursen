@@ -241,6 +241,7 @@ header h3 {
 /****************GALLERI***********/
 
 .kategori_con {
+    position: relative;
     display: flex;
     flex-direction: row;
 }
