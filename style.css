@@ -4,7 +4,7 @@ body {
 
 #ikon img {
   width: 5vw;
-  margin-top: 0.5vw;
+  margin-left: 2vw;
 }
 
 nav {
@@ -38,8 +38,9 @@ header h3 {
 
 }
 
-header img {
+#logo img {
   height: 2vw;
+  margin: 0.5vw;
 }
 
 #logo {
