@@ -1,15 +1,36 @@
 body {
-  background-color: pink;
+    background-color: pink;
 }
 
 #ikon img {
-  width: 5vw;
+    width: 5vw;
+    width: 5vw;
 }
 
 
 header h1 {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
-hej med dig
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'white_angelicaregular';
+    src: url('whiteangelica-webfont.woff2') format('woff2'),
+        url('whiteangelica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
