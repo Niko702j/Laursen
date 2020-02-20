@@ -1,12 +1,7 @@
 body {
-  background-color: pink;
+    background-color: pink;
 }
 
 #ikon img {
-  width: 5vw;
-}
-
-header h1 {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
+    width: 5vw;
 }
