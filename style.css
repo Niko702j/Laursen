@@ -1,6 +1,10 @@
 body {
-  background-color: pink;
-  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+#ikon img {
+  width: 5vw;
+  margin-left: 2vw;
 }
 
 header {
@@ -258,6 +262,16 @@ header h3 {
 
 /****************GALLERI***********/
 
+.kategori_con {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.kategori img {
+  border-radius: 50%;
+  width: 6vw;
+}
 
 
 
