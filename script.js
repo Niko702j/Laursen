@@ -84,5 +84,6 @@ burger.addEventListener("click", () => {
 })
 
 kryds.addEventListener("click", () => {
+    console.log("kryds click")
     classList.remove("burgermenu_active");
 })
