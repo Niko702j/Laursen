@@ -288,8 +288,7 @@ header h2 {
 /****************GALLERI***********/
 
 .kategori_con {
-<<<<<<< HEAD
-  position: relative;
+  <<<<<<< HEAD position: relative;
   display: flex;
   flex-direction: row;
 }
@@ -297,63 +296,62 @@ header h2 {
 .kategori img {
   border-radius: 50%;
   width: 6vw;
-=======
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 40px;
-    text-align: center;
+  =======position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .kategori_con img {
-    border-radius: 50%;
-    width: 80px;
-    opacity: 0.5;
+  border-radius: 50%;
+  width: 80px;
+  opacity: 0.5;
 }
 
 .kategori_con button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
 }
 
 .kategori_con img:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .button_active {
-    opacity: 1;
-    font-weight: bold;
+  opacity: 1;
+  font-weight: bold;
 }
 
 button:hover {
-    font-weight: bold;
->>>>>>> origin/master
+  font-weight: bold;
+  > > > > > > > origin/master
 }
 
 
 .hide {
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 
 
 .data_con {
-    justify-content: space-between;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
-    grid-gap: 25px;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+  grid-gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .data_con img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 
@@ -494,6 +492,7 @@ button:hover {
 
   header h1 {
     font-size: 1.7rem;
+    letter-spacing: 0.2rem;
   }
 
   header h2 {
@@ -541,8 +540,9 @@ button:hover {
   #splash {
     background-image: url(imgs/splash.png);
     background-size: cover;
+    background-position: top;
     width: 67vw;
-    height: 62vw;
+    height: 100vh;
   }
 
   #forside_tekst {
