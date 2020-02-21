@@ -27,26 +27,54 @@
     </header>
 
     <section class="kategori_con">
-        <div class="kategori">
-            <img src="imgs/kategori_alle.jpg" alt="kage">
+
+        <button class="filter button_active" data-kategori="alle">
+            <img src="imgs/kategori_alle.jpg" alt="kage"><br>
             Alle
-        </div>
+        </button>
 
-        <div class="kategori">
-            <img src="imgs/kategori_bbkage.jpeg" alt="kage">Bryllupskager</div>
+        <button class="filter" data-kategori="bryllupskage">
+            <img src="imgs/kategori_bbkage.jpeg" alt="kage"><br>Bryllupskager</button>
 
-        <div class="kategori">
-            <img src="imgs/kategori_macarons.jpg" alt="kage">Macarons</div>
+        <button class="filter" data-kategori="macarons">
+            <img src="imgs/kategori_macarons.jpg" alt="kage"><br>Macarons</button>
 
-        <div class="kategori">
-            <img src="imgs/kategori_cupcakes.jpg" alt="kage">Cupcakes</div>
+        <button class="filter" data-kategori="cupcake">
+            <img src="imgs/kategori_cupcakes.jpg" alt="kage"><br>Cupcakes</button>
 
-        <div class="kategori">
-            <img src="imgs/kategori_lagkage.jpg" alt="kage">
-            Lagkager</div>
+        <button class="filter" data-kategori="lagkage">
+            <img src="imgs/kategori_lagkage.jpg" alt="kage"><br>
+            Lagkager</button>
     </section>
 
 
+
+
+
+    <main class="data_con"></main>
+
+    <template id="detalje">
+        <article class="detalje">
+            <img src="" alt="">
+        </article>
+    </template>
+
+
+
+
+
+
+
+    <section id="popup" class="hide detalje">
+
+        <article id="produkt_popup">
+            <img src="" alt="">
+            <h2></h2>
+            <p class="navn"></p>
+            <p class="kort"></p>
+            <p class="pris"></p>
+        </article>
+    </section>
 
 
     <script src="script.js"></script>

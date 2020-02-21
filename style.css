@@ -288,6 +288,7 @@ header h2 {
 /****************GALLERI***********/
 
 .kategori_con {
+<<<<<<< HEAD
   position: relative;
   display: flex;
   flex-direction: row;
@@ -296,12 +297,64 @@ header h2 {
 .kategori img {
   border-radius: 50%;
   width: 6vw;
+=======
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.kategori_con img {
+    border-radius: 50%;
+    width: 80px;
+    opacity: 0.5;
+}
+
+.kategori_con button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+.kategori_con img:hover {
+    opacity: 1;
+}
+
+.button_active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+button:hover {
+    font-weight: bold;
+>>>>>>> origin/master
+}
+
+
+.hide {
+    opacity: 0;
+    pointer-events: none;
 }
 
 
 
+.data_con {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+    grid-gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-
+.data_con img {
+    max-width: 100%;
+}
 
 
 
