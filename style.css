@@ -269,6 +269,7 @@ header h3 {
 
 /****************GALLERI***********/
 
+/*
 .kategori_con {
     position: relative;
     display: flex;
@@ -276,6 +277,15 @@ header h3 {
     justify-content: space-around;
     margin-bottom: 40px;
     text-align: center;
+}
+*/
+
+.kategori_con {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
 .kategori_con img {
