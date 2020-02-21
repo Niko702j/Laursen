@@ -69,3 +69,20 @@ function filtrering() {
     this.classList.add("button_active");
 
 }
+
+//Burger menu
+
+const burger = document.querySelector("#burger");
+const nav = document.querySelector(".burgermenu");
+const kryds = document.querySelector("#kryds");
+
+
+
+burger.addEventListener("click", () => {
+    nav.classList.add("burgermenu_active");
+
+})
+
+kryds.addEventListener("click", () => {
+    kryds.classList.remove("burgermenu_active");
+})
