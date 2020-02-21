@@ -1,121 +1,120 @@
 body {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 #ikon img {
-  opacity: 0;
+    opacity: 0;
 }
 
 
-header {
-  height: 50vw;
-}
+
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #forside_header {
-  position: fixed;
-  width: 100vw;
+    position: fixed;
+    width: 100vw;
 }
 
 header h1 {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0.8vw;
-  line-height: 0.1rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.8vw;
+    line-height: 0.1rem;
+    letter-spacing: 4px;
 }
 
 header h2 {
-  font-family: 'white_angelicaregular';
-  font-size: 1rem;
-  font-weight: 100;
-  text-align: center;
-  margin: 0;
-  line-height: 0.1rem;
+    font-family: 'white_angelicaregular';
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0;
+    line-height: 0.1rem;
 }
 
 #forside_header h3 {
-  display: none;
+    display: none;
 }
 
 #logo img {
-  height: 6vw;
-  margin: 2vw;
+    height: 6vw;
+    margin: 2vw;
 }
 
 #logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #knapper {
-  width: 20vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 1vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1vw;
 }
 
 #knapper img {
-  height: 6vw;
-  margin-top: 7vw;
-  margin-right: 4vw;
+    height: 6vw;
+    margin-top: 7vw;
+    margin-right: 4vw;
 }
 
 #ikon {
-  width: 20vw;
+    width: 20vw;
 }
 
 .hide {
-  display: none;
+    display: none;
 }
 
 /******** LANDING PAGE ********/
 #forside {
-  width: 100vw;
+    width: 100vw;
 }
 
 #splash {
-  background-image: url(imgs/splash_mobil.png);
-  background-size: cover;
-  width: 100vw;
-  height: 60vh;
+    background-image: url(imgs/splash_mobil.png);
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
 }
 
 #forside_tekst {
-  width: 80vw;
-  padding: 0 10vw;
+    width: 80vw;
+    padding: 0 10vw;
 }
 
 #forside_tekst p {
-  color: white;
-  font-size: 1.2rem;
-  text-align: justify;
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 #button {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 #forside button {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  width: 40vw;
-  padding: 3vw;
-  border: none;
-  border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    width: 40vw;
+    padding: 3vw;
+    border: none;
+    border-radius: 30px;
 }
 
 
@@ -287,38 +286,19 @@ header h2 {
 
 /****************GALLERI***********/
 
-/*
-.kategori_con {
-<<<<<<< HEAD
-  position: relative;
-  display: flex;
-  flex-direction: row;
-}
-
-.kategori img {
-  border-radius: 50%;
-  width: 6vw;
-=======
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 40px;
-    text-align: center;
-}
-*/
 
 .kategori_con {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+    grid-template-columns: repeat(5, 1fr);
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 20px;
 
 }
 
 .kategori_con img {
     border-radius: 50%;
-    width: 80px;
+    width: 100%;
     opacity: 0.5;
 }
 
@@ -327,7 +307,7 @@ header h2 {
     border: none;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: 0.6rem;
 }
 
 .kategori_con img:hover {
@@ -341,7 +321,6 @@ header h2 {
 
 button:hover {
     font-weight: bold;
->>>>>>> origin/master
 }
 
 
@@ -359,6 +338,7 @@ button:hover {
     grid-gap: 25px;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 50px;
     padding: 20px;
 }
 
@@ -478,11 +458,11 @@ button:hover {
 
 
 @font-face {
-  font-family: 'white_angelicaregular';
-  src: url('whiteangelica-webfont.woff2') format('woff2'),
-    url('whiteangelica-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'white_angelicaregular';
+    src: url('whiteangelica-webfont.woff2') format('woff2'),
+        url('whiteangelica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
@@ -492,87 +472,87 @@ button:hover {
 /************** Media query ************/
 
 @media only screen and (min-width: 900px) {
-  #ikon img {
-    opacity: 1;
-    width: 5vw;
-    margin-left: 2vw;
-  }
+    #ikon img {
+        opacity: 1;
+        width: 5vw;
+        margin-left: 2vw;
+    }
 
-  header {
-    height: 10vw;
-  }
+    header {
+        height: 10vw;
+    }
 
-  header h1 {
-    font-size: 1.7rem;
-  }
+    header h1 {
+        font-size: 1.7rem;
+    }
 
-  header h2 {
-    font-size: 1.3rem;
-  }
+    header h2 {
+        font-size: 1.3rem;
+    }
 
-  header h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 100;
-    display: block !important;
-  }
+    header h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 100;
+        display: block !important;
+    }
 
-  #logo img {
-    height: 2vw;
-    margin: 0.5vw;
-  }
+    #logo img {
+        height: 2vw;
+        margin: 0.5vw;
+    }
 
-  #knapper {
-    justify-content: space-around;
-  }
+    #knapper {
+        justify-content: space-around;
+    }
 
-  #knapper img {
-    display: none;
-  }
+    #knapper img {
+        display: none;
+    }
 
-  #ikon {
-    width: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
+    #ikon {
+        width: 20vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 
-  #ikon img {
-    width: 5vw;
-    margin-left: 2vw;
-  }
+    #ikon img {
+        width: 5vw;
+        margin-left: 2vw;
+    }
 
 
-  /******** LANDING PAGE ********/
-  #forside {
-    width: 100vw;
-  }
+    /******** LANDING PAGE ********/
+    #forside {
+        width: 100vw;
+    }
 
-  #splash {
-    background-image: url(imgs/splash.png);
-    background-size: cover;
-    width: 67vw;
-    height: 62vw;
-  }
+    #splash {
+        background-image: url(imgs/splash.png);
+        background-size: cover;
+        width: 67vw;
+        height: 62vw;
+    }
 
-  #forside_tekst {
-    padding: 0;
-    width: 32vw;
-    position: absolute;
-    top: 24vw;
-    right: 5vw;
-  }
+    #forside_tekst {
+        padding: 0;
+        width: 32vw;
+        position: absolute;
+        top: 24vw;
+        right: 5vw;
+    }
 
-  #forside_tekst p {
-    line-height: 2vw;
-  }
+    #forside_tekst p {
+        line-height: 2vw;
+    }
 
-  #forside button {
-    width: 10vw;
-    padding: 1vw;
-    position: absolute;
-    right: 15vw;
-    top: 35vw;
-  }
+    #forside button {
+        width: 10vw;
+        padding: 1vw;
+        position: absolute;
+        right: 15vw;
+        top: 35vw;
+    }
 
 }
