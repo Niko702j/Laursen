@@ -1,120 +1,119 @@
 body {
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  font-family: 'Raleway', sans-serif overflow-x: hidden;
 }
 
 #ikon img {
-    opacity: 0;
+  opacity: 0;
 }
 
 
 
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #forside_header {
-    position: fixed;
-    width: 100vw;
+  position: fixed;
+  width: 100vw;
 }
 
 header h1 {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 0.8vw;
-    line-height: 0.1rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.8vw;
+  line-height: 0.1rem;
 }
 
 header h2 {
-    font-family: 'white_angelicaregular';
-    font-size: 1rem;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 0;
-    line-height: 0.1rem;
+  font-family: 'white_angelicaregular';
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0;
+  line-height: 0.1rem;
 }
 
 header h3 {
-    display: none;
+  display: none;
 }
 
 #logo img {
-    height: 6vw;
-    margin: 2vw;
+  height: 6vw;
+  margin: 2vw;
 }
 
 #logo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #knapper {
-    width: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 1vw;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 1vw;
 }
 
 #knapper img {
-    height: 6vw;
-    margin-top: 7vw;
-    margin-right: 4vw;
+  height: 6vw;
+  margin-top: 7vw;
+  margin-right: 4vw;
 }
 
 #ikon {
-    width: 20vw;
+  width: 20vw;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 /******** LANDING PAGE ********/
 #forside {
-    width: 100vw;
+  width: 100vw;
 }
 
 #splash {
-    background-image: url(imgs/splash_mobil.png);
-    background-size: cover;
-    width: 100vw;
-    height: 60vh;
+  background-image: url(imgs/splash_mobil.png);
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
 }
 
 #forside_tekst {
-    width: 80vw;
-    padding: 0 10vw;
+  width: 80vw;
+  padding: 0 10vw;
 }
 
 #forside_tekst p {
-    color: white;
-    font-size: 1.2rem;
-    text-align: justify;
+  color: white;
+  font-size: 1.2rem;
+  text-align: justify;
 }
 
 #button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #forside button {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    width: 40vw;
-    padding: 3vw;
-    border: none;
-    border-radius: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  width: 40vw;
+  padding: 3vw;
+  border: none;
+  border-radius: 30px;
 }
 
 
@@ -208,50 +207,45 @@ header h3 {
 
 
 /*********************OM OS*************************/
+#damerne {
+  width: 100%;
+}
 
+#damerne div {
+  margin-bottom: 50px;
+}
 
+#billeder {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+#billeder img {
+  width: 30%;
+  height: 30%;
+  margin: 30px;
+}
 
+footer {
+  width: 100%;
+}
 
+footer img {
+  width: 100%;
+}
 
+#damerne h1,
+h3 {
+  text-align: center;
+  font-weight: 100;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#om_tekst {
+  width: 80vw;
+  margin: 0 auto;
+}
 
 
 
@@ -289,63 +283,63 @@ header h3 {
 
 /*
 .kategori_con {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
 
 }
 
 .kategori_con img {
-    border-radius: 50%;
-    width: 100%;
-    opacity: 0.5;
+  border-radius: 50%;
+  width: 100%;
+  opacity: 0.5;
 }
 
 .kategori_con button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-    font-size: 0.6rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.6rem;
 }
 
 .kategori_con img:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .button_active {
-    opacity: 1;
-    font-weight: bold;
+  opacity: 1;
+  font-weight: bold;
 }
 
 button:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 */
 
 
 .hide {
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 
 
 .data_con {
-    justify-content: space-between;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
-    grid-gap: 25px;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 20px;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 2fr));
+  grid-gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 .data_con img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 
@@ -354,31 +348,31 @@ button:hover {
 
 
 .burgermenu {
-    display: block;
-    position: fixed;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-    background-color: #B59090;
-    display: flex;
-    flex-direction: column;
+  display: block;
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-color: #B59090;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    transform: translateX(100%);
+  align-items: center;
+  transform: translateX(100%);
 
-    transition: transform 0.5s ease-in;
-    z-index: 1;
+  transition: transform 0.5s ease-in;
+  z-index: 1;
 
 }
 
 .burgermenu_active {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 #kryds {
-    margin-top: 10px;
-    height: 25px;
-    width: 25px;
+  margin-top: 10px;
+  height: 25px;
+  width: 25px;
 }
 
 
@@ -480,11 +474,11 @@ button:hover {
 
 
 @font-face {
-    font-family: 'white_angelicaregular';
-    src: url('whiteangelica-webfont.woff2') format('woff2'),
-        url('whiteangelica-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'white_angelicaregular';
+  src: url('whiteangelica-webfont.woff2') format('woff2'),
+    url('whiteangelica-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
@@ -494,125 +488,147 @@ button:hover {
 /************** Media query ************/
 
 @media only screen and (min-width: 900px) {
-    #ikon img {
-        opacity: 1;
-        width: 5vw;
-        margin-left: 2vw;
-    }
+  #ikon img {
+    opacity: 1;
+    width: 5vw;
+    margin-left: 2vw;
+  }
 
-    header {
-        height: 10vw;
-    }
+  header {
+    height: 10vw;
+  }
 
-    header h1 {
-        font-size: 1.7rem;
-    }
+  header h1 {
+    font-size: 1.7rem;
+  }
 
-    header h2 {
-        font-size: 1.3rem;
-    }
+  header h2 {
+    font-size: 1.3rem;
+  }
 
-    header h3 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.2rem;
-        font-weight: 100;
-        display: block !important;
-    }
+  header h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    display: block !important;
+  }
 
-    #logo img {
-        height: 2vw;
-        margin: 0.5vw;
-    }
+  #logo img {
+    height: 2vw;
+    margin: 0.5vw;
+  }
 
-    #knapper {
-        justify-content: space-around;
-    }
+  #knapper {
+    justify-content: space-around;
+  }
 
-    #knapper img {
-        display: none;
-    }
+  #knapper img {
+    display: none;
+  }
 
-    #ikon {
-        width: 20vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
+  #ikon {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 
-    #ikon img {
-        width: 5vw;
-        margin-left: 2vw;
-    }
-
-
-    /******** LANDING PAGE ********/
-    #forside {
-        width: 100vw;
-    }
-
-    #splash {
-        background-image: url(imgs/splash.png);
-        background-size: cover;
-        width: 67vw;
-        height: 62vw;
-    }
-
-    #forside_tekst {
-        padding: 0;
-        width: 32vw;
-        position: absolute;
-        top: 24vw;
-        right: 5vw;
-    }
-
-    #forside_tekst p {
-        line-height: 2vw;
-    }
-
-    #forside button {
-        width: 10vw;
-        padding: 1vw;
-        position: absolute;
-        right: 15vw;
-        top: 35vw;
-    }
-
-}
+  #ikon img {
+    width: 5vw;
+    margin-left: 2vw;
+  }
 
 
-/********* GALLERI *******/
-.kategori_con {
+  /******** LANDING PAGE ********/
+  #forside {
+    width: 100vw;
+  }
+
+  #splash {
+    background-image: url(imgs/splash.png);
+    background-size: cover;
+    width: 67vw;
+    height: 62vw;
+  }
+
+  #forside_tekst {
+    padding: 0;
+    width: 32vw;
+    position: absolute;
+    top: 24vw;
+    right: 5vw;
+  }
+
+  #forside_tekst p {
+    line-height: 2vw;
+  }
+
+  #forside button {
+    width: 10vw;
+    padding: 1vw;
+    position: absolute;
+    right: 15vw;
+    top: 35vw;
+  }
+
+
+
+
+  /********* GALLERI *******/
+  .kategori_con {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 20px;
 
-}
+  }
 
-.kategori_con img {
+  .kategori_con img {
     border-radius: 50%;
     width: 100%;
     opacity: 0.5;
-}
+  }
 
-.kategori_con button {
+  .kategori_con button {
     background: none;
     border: none;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     font-size: 0.6rem;
-}
+  }
 
-.kategori_con img:hover {
+  .kategori_con img:hover {
     opacity: 1;
-}
+  }
 
-.button_active {
+  .button_active {
     opacity: 1;
     font-weight: bold;
-}
+  }
 
-button:hover {
+  button:hover {
     font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+  /***********OMOS***/
+  #billeder img {
+    width: 20%;
+    height: 20%;
+  }
+
+  #om_tekst {
+    width: 30vw;
+  }
+
+
 }
