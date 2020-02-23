@@ -2,96 +2,121 @@
 <html lang="da">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laursen konditori</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laursen konditori</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <header>
-    <nav>
-      <div id="ikon"><img src="someicons_black.svg" alt="facebook og instagram ikoner"> </div>
+    <header>
+        <nav>
+            <div id="ikon"><img src="someicons_black.svg" alt="facebook og instagram ikoner"> </div>
 
-      <div id="logo">
-        <a href="index.html">
-          <img src="imgs/logosort.svg" alt="kagelogo i sort">
-          <h1>Laursen konditori</h1><br>
-          <h2>Baking dreams come true</h2>
-        </a>
-      </div>
+            <div id="logo">
+                <a href="index.html">
+                    <img src="imgs/logosort.svg" alt="kagelogo i sort">
+                    <h1>Laursen konditori</h1><br>
+                    <h2>Baking dreams come true</h2>
+                </a>
+            </div>
 
-      <div id="knapper">
-        <a href="galleri.html">
-          <h3>Galleri</h3>
-        </a>
-        <a href="omos.html">
-          <h3>Om os</h3>
-        </a>
-        <div id="burger"><img src="imgs/burger_sort.svg" alt="Burgermenu ikon"></div>
+            <div id="knapper">
+                <a href="galleri.html">
+                    <h3>Galleri</h3>
+                </a>
+                <a href="omos.html">
+                    <h3>Om os</h3>
+                </a>
+                <div id="burger"><img src="imgs/burger_sort.svg" alt="Burgermenu ikon"></div>
 
-      </div>
-      <div class="burgermenu">
-        <div id="kryds"><img src="imgs/kryds_hvid.svg" alt="Kryds ikon"></div>
-      </div>
-    </nav>
-  </header>
+            </div>
+            <div class="burgermenu">
 
-  <section class="kategori_con">
+                <div id="kryds"><img src="imgs/kryds_hvid.svg" alt="Kryds ikon"></div>
 
-    <button class="filter button_active" data-kategori="alle">
-      <img src="imgs/kategori_alle.jpg" alt="kage">
-      Alle
-    </button>
+                <div class="burger_txt">
+                    <a href="index.html">
+                        <div>Forside
+                        </div>
+                    </a>
 
-    <button class="filter" data-kategori="bryllupskage">
-      <img src="imgs/kategori_bbkage.jpeg" alt="kage">Bryllupskager</button>
+                    <a href="omos.html">
+                        <div>Om os</div>
+                    </a>
+                    <a href="galleri.html">
+                        <div>Galleri</div>
+                    </a>
 
-    <button class="filter" data-kategori="macarons">
-      <img src="imgs/kategori_macarons.jpg" alt="kage">Macarons</button>
-
-    <button class="filter" data-kategori="cupcake">
-      <img src="imgs/kategori_cupcakes.jpg" alt="kage">Cupcakes</button>
-
-    <button class="filter" data-kategori="lagkage">
-      <img src="imgs/kategori_lagkage.jpg" alt="kage">
-      Lagkager</button>
-  </section>
+                    <div class="burger_kategorier">
 
 
+                        <div>Bryllupskager</div>
+
+                        <div>Macarons</div>
+                        <div>Cupcakes</div>
+                        <div>Lagkager</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="kategori_con">
+
+        <button class="filter button_active" data-kategori="alle">
+            <img src="imgs/kategori_alle.jpg" alt="kage">
+            Alle
+        </button>
+
+        <button class="filter" data-kategori="bryllupskage">
+            <img src="imgs/kategori_bbkage.jpeg" alt="kage">Bryllupskager</button>
+
+        <button class="filter" data-kategori="macarons">
+            <img src="imgs/kategori_macarons.jpg" alt="kage">Macarons</button>
+
+        <button class="filter" data-kategori="cupcake">
+            <img src="imgs/kategori_cupcakes.jpg" alt="kage">Cupcakes</button>
+
+        <button class="filter" data-kategori="lagkage">
+            <img src="imgs/kategori_lagkage.jpg" alt="kage">
+            Lagkager</button>
+    </section>
 
 
 
-  <main class="data_con"></main>
-
-  <template id="detalje">
-    <article class="detalje">
-      <img src="" alt="">
-    </article>
-  </template>
 
 
+    <main class="data_con"></main>
 
-
+    <template id="detalje">
+        <article class="detalje">
+            <img src="" alt="">
+        </article>
+    </template>
 
 
 
-  <section id="popup" class="hide detalje">
-
-    <article id="produkt_popup">
-      <img src="" alt="">
-      <h2></h2>
-      <p class="navn"></p>
-      <p class="kort"></p>
-      <p class="pris"></p>
-    </article>
-  </section>
 
 
-  <script src="script.js"></script>
+
+
+    <section id="popup" class="hide detalje">
+
+        <article id="produkt_popup">
+            <img src="" alt="">
+            <h2></h2>
+            <p class="navn"></p>
+            <p class="kort"></p>
+            <p class="pris"></p>
+        </article>
+    </section>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
