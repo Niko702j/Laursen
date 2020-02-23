@@ -326,6 +326,9 @@ button:hover {
   pointer-events: none;
 }
 
+.kategori_con {
+  display: none;
+}
 
 
 .data_con {
@@ -587,8 +590,10 @@ button:hover {
 
   .kategori_con img {
     border-radius: 50%;
-    width: 100%;
+    width: 60%;
     opacity: 0.5;
+    display: block;
+    margin: 10px auto;
   }
 
   .kategori_con button {
