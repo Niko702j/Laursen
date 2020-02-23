@@ -384,7 +384,7 @@ button:hover {
     text-transform: uppercase;
     line-height: 45px;
     font-size: 1.2rem;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .burger_txt a {
