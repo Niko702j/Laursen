@@ -282,43 +282,11 @@ h3 {
 /****************GALLERI***********/
 
 
-/*
-.kategori_con {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 20px;
 
-}
 
-.kategori_con img {
-  border-radius: 50%;
-  width: 100%;
-  opacity: 0.5;
+.data_con img {
+    cursor: pointer;
 }
-
-.kategori_con button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.6rem;
-}
-
-.kategori_con img:hover {
-  opacity: 1;
-}
-
-.button_active {
-  opacity: 1;
-  font-weight: bold;
-}
-
-button:hover {
-  font-weight: bold;
-}
-*/
 
 
 .hide {
@@ -326,6 +294,9 @@ button:hover {
     pointer-events: none;
 }
 
+.kategori_con {
+    display: none;
+}
 
 
 .data_con {
@@ -434,11 +405,38 @@ button:hover {
 
 
 
+/***** POPUP ****/
+#popup {
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+}
 
+#produkt_popup {
+    background-color: #ebebeb;
+    width: 80vw;
+    height: 80vh;
+    overflow-x: scroll;
+}
 
+#produkt_popup img {
+    width: 100%;
+}
 
+#produkt_popup h2,
+p {
+    margin-left: 10px;
+}
 
-
+#produkt_popup .luk {
+    width: 20px;
+    position: absolute;
+    top: 5vw;
+    right: 15vw;
+}
 
 
 
@@ -591,6 +589,7 @@ button:hover {
         position: absolute;
         right: 16vw;
         top: 65%;
+        cursor: pointer;
     }
 
 
@@ -612,6 +611,15 @@ button:hover {
         opacity: 0.5;
     }
 
+
+    .kategori_con img {
+        border-radius: 50%;
+        width: 50%;
+        opacity: 0.5;
+        display: block;
+        margin: 10px auto;
+    }
+
     .kategori_con button {
         background: none;
         border: none;
@@ -619,6 +627,7 @@ button:hover {
         font-family: 'Raleway', sans-serif;
         font-size: 0.6rem;
     }
+
 
     .kategori_con img:hover {
         opacity: 1;
@@ -650,6 +659,25 @@ button:hover {
 
     #om_tekst {
         width: 30vw;
+    }
+
+
+
+    /****************POPUP**************/
+
+    #popup {
+        height: 50vw;
+    }
+
+    #produkt_popup {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #produkt_popup .luk {
+        width: 30px;
+        top: 1vw;
+        right: 37vw;
     }
 
 
