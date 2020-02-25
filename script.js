@@ -62,21 +62,21 @@ function filtrering() {
     console.log("filtrer");
 
     document.querySelectorAll(".filter").forEach(elm => {
-        elm.classList.remove("#button_active");
+        elm.classList.remove("button_active");
         console.log("remove button active");
     })
 
     filter = this.dataset.kategori;
     visProdukter();
 
-    this.classList.add("#button_active");
+    this.classList.add("button_active");
     console.log("add button active");
 
 }
 
 
 
-//Burger menu
+//Burger menuuu
 
 const burger = document.querySelector("#burger");
 const nav = document.querySelector(".burgermenu");
