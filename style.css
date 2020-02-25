@@ -551,6 +551,7 @@ p {
         background: #FFF;
         color: #151E3F;
         transition: all 0.9s ease;
+        cursor: pointer;
 
     }
 
