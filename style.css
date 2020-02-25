@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 #ikon img {
@@ -170,6 +171,8 @@ footer img {
 
 #adresse {
     text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 
@@ -679,9 +682,8 @@ p {
     #produkt_popup .luk {
         width: 30px;
         top: 1vw;
-        <<<<<<< HEAD left: 1vw;
-        =======right: 37vw;
-        > > > > > > > master
+        left: 1vw;
+
     }
 
     #ikon img {
@@ -740,6 +742,7 @@ p {
 
     .blur {
         filter: blur(3px);
+        transition: ease-in-out 0.3s;
     }
 
 
@@ -823,6 +826,7 @@ p {
         padding: 3px 15px;
         border-radius: 30px;
         font-size: 18px;
+        transition: all ease-in-out 2s;
     }
 
     i {
