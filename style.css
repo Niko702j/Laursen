@@ -1,261 +1,175 @@
 body {
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    overflow-x: hidden;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
 #ikon img {
-    opacity: 0;
+  opacity: 0;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 #forside_header {
-    position: fixed;
-    width: 100vw;
+  position: fixed;
+  width: 100vw;
 }
 
 header h1 {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 1.2rem;
-    text-align: center;
-    margin: 0.8vw;
-    line-height: 0.1rem;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0.8vw;
+  line-height: 0.1rem;
 }
 
 header h2 {
-    font-family: 'white_angelicaregular';
-    font-size: 1rem;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 0;
-    line-height: 0.1rem;
+  font-family: 'white_angelicaregular';
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 0;
+  line-height: 0.1rem;
 }
 
 header h3 {
-    display: none;
+  display: none;
 }
 
 #logo img {
-    height: 6vw;
-    margin: 2vw;
+  height: 6vw;
+  margin: 2vw;
 }
 
 #logo {
-    text-align: center;
+  text-align: center;
 }
 
 #knapper {
-    width: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 1vw;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 1vw;
 }
 
 #knapper img {
-    height: 5vw;
-    margin-top: 9vw;
-    margin-right: 6vw;
+  height: 5vw;
+  margin-top: 9vw;
+  margin-right: 6vw;
 }
 
 #ikon {
-    width: 20vw;
+  width: 20vw;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
+
+
+
+
 /******** LANDING PAGE ********/
+
 #forside {
-    width: 100vw;
+  width: 100vw;
 }
 
 #splash {
-    background-image: url(imgs/splash_mobil.png);
-    background-size: cover;
-    width: 100vw;
-    height: 60vh;
-}
-
-#forside_tekst {
-    width: 80vw;
-    padding: 0 10vw;
-}
-
-#forside_tekst p {
-    color: white;
-    font-size: 1.2rem;
-    text-align: justify;
+  background-image: url(imgs/splash_mobil.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 #button {
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #forside button {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    width: 40vw;
-    padding: 3vw;
-    border: none;
-    border-radius: 30px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  width: 60vw;
+  height: 15vw;
+  padding: 3vw;
+  border: solid 0.1px black;
+  background-color: white;
+  opacity: 0.7;
+  box-shadow: 0px 9px 24px 0px rgba(0, 0, 0, 1);
+  z-index: 999;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 
 /*********************OM OS*************************/
+
 #damerne {
-    width: 100%;
+  width: 100%;
 }
 
 #damerne div {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #billeder {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #billeder img {
-    width: 30%;
-    height: 30%;
-    margin: 30px 30px 0 30px;
+  width: 30%;
+  height: 30%;
+  margin: 30px 30px 0 30px;
 }
 
 footer {
-    width: 100%;
+  width: 100%;
 }
 
 footer img {
-    width: 100%;
+  width: 100%;
 }
 
 
 #om_tekst {
-    width: 80vw;
-    margin: 0 auto;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 #om_tekst h3 {
-    text-align: center;
+  text-align: center;
 }
 
 #kontakt {
-    width: 80vw;
+  width: 80vw;
 
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #adresse {
-    text-align: center;
+  text-align: center;
 }
 
 
@@ -289,110 +203,118 @@ footer img {
 
 
 .kategori_con {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    max-width: 1200px;
-    grid-gap: 5px;
-    margin: 30px 7px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  grid-gap: 5px;
+  margin: 30px 7px;
 
 }
 
 .kategori_con button {
-    background: none;
-    border: none;
-    padding: 2px;
-    background-color: #d9b0b6;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.1rem;
-    padding: 4px;
+  background: none;
+  border: none;
+  padding: 2px;
+  background-color: #d9b0b6;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  padding: 4px;
 }
 
 
 .data_con img {
-    cursor: pointer;
-    max-width: 100%;
+  cursor: pointer;
+  max-width: 100%;
 }
 
 
 .hide {
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .kategori_con img {
-    display: none;
+  display: none;
 }
 
 
 .data_con {
-    justify-content: space-between;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
-    grid-gap: 25px;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 20px;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+  grid-gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 
+button:focus {
+  outline: 0;
+}
+
+.button_active {
+  opacity: 1;
+  font-weight: bold;
+  filter: grayscale(0.7);
+}
 
 
 /**** BURGER MENU ****/
 
 
 .burgermenu {
-    display: block;
-    position: fixed;
-    right: 0;
-    width: 50vw;
-    height: 100%;
-    background-color: #d9b0b6;
-    display: flex;
-    flex-direction: column;
+  display: block;
+  position: fixed;
+  right: 0;
+  width: 50vw;
+  height: 100%;
+  background-color: #d9b0b6;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
-    transform: translateX(100%);
+  align-items: center;
+  transform: translateX(100%);
 
-    transition: transform 0.5s ease-in;
-    z-index: 1;
+  transition: transform 0.5s ease-in;
+  z-index: 999;
 
 }
 
 .burgermenu_active {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 #kryds {
-    display: block;
-    margin-top: 10px;
-    height: 25px;
-    width: 25px;
+  display: block;
+  margin-top: 35px;
+  height: 25px;
+  width: 25px;
 }
 
 .burger_txt {
-    margin-top: 25px;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 130px;
-    font-size: 1.2rem;
-    letter-spacing: 3px;
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 130px;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
 }
 
 .burger_txt a {
-    color: white;
-    font-weight: 150;
+  color: white;
+  font-weight: 100;
 }
 
 .burger_kategorier {
-    font-size: 0.7em;
-    text-transform: capitalize;
+  font-size: 0.7em;
+  text-transform: capitalize;
 }
-
 
 
 
@@ -432,35 +354,42 @@ footer img {
 
 /***** POPUP ****/
 #popup {
-    width: 100vw;
-    height: 50vw;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    z-index: 999;
+  position: fixed;
+  z-index: 999;
 }
 
 #produkt_popup {
-    background-color: #ebebeb;
-    width: 80vw;
-    height: 80vh;
-    overflow-x: scroll;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: scroll;
+  position: absolute;
+  top: -84px;
+  left: 0;
 }
 
 #produkt_popup img {
-    width: 100%;
+  width: 100%;
 }
 
 #produkt_popup h2,
 p {
-    margin-left: 10px;
+  margin-left: 10px;
+}
+
+.layer {
+  display: none;
 }
 
 #produkt_popup .luk {
-    width: 20px;
-    position: absolute;
-    top: 5vw;
-    right: 15vw;
+  width: 20px;
+  position: absolute;
+  top: 5vw;
+  right: 5vw;
+}
+
+#poptxt p:nth-child(2) {
+  text-transform: capitalize;
 }
 
 
@@ -519,11 +448,11 @@ p {
 
 
 @font-face {
-    font-family: 'white_angelicaregular';
-    src: url('whiteangelica-webfont.woff2') format('woff2'),
-        url('whiteangelica-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'white_angelicaregular';
+  src: url('whiteangelica-webfont.woff2') format('woff2'),
+    url('whiteangelica-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
@@ -533,239 +462,7 @@ p {
 /************** Media query ************/
 
 @media only screen and (min-width: 900px) {
-<<<<<<< HEAD
-    #ikon img {
-        opacity: 1;
-        width: 5vw;
-        margin-left: 2vw;
-    }
 
-    header {
-        height: 10vw;
-    }
-
-    header h1 {
-        font-size: 1.7rem;
-    }
-
-    header h2 {
-        font-size: 1.3rem;
-    }
-
-    header h3 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.2rem;
-        font-weight: 100;
-        display: block !important;
-    }
-
-    header h3:hover {
-        font-weight: 500;
-    }
-
-    #logo img {
-        height: 2vw;
-        margin: 0.5vw;
-    }
-
-    #knapper {
-        justify-content: space-around;
-    }
-
-    #knapper img {
-        display: none;
-    }
-
-    #ikon {
-        width: 20vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-    }
-
-    #ikon img {
-        width: 5vw;
-        margin-left: 2vw;
-    }
-
-
-    /******** LANDING PAGE ********/
-    #forside {
-        width: 100vw;
-    }
-
-    #splash {
-        background-image: url(imgs/splash.png);
-        background-size: cover;
-        width: 67vw;
-        height: 62vw;
-    }
-
-    #forside_tekst {
-        padding: 0;
-        width: 32vw;
-        position: absolute;
-        top: 40%;
-        right: 5vw;
-    }
-
-    #forside_tekst p {
-        line-height: 2vw;
-    }
-
-    #forside button {
-        width: 14vw;
-        padding: 1vw;
-        position: absolute;
-        right: 16vw;
-        top: 65%;
-        cursor: pointer;
-        transition: ease-in 0.5s;
-    }
-
-    #forside button:hover {
-        transform: scale(1.1);
-    }
-
-
-
-    /********* GALLERI *******/
-    .kategori_con {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        max-width: 1200px;
-        margin: 0 auto;
-        margin-top: 20px;
-
-    }
-
-    .kategori_con img {
-        border-radius: 50%;
-        width: 70%;
-        display: block;
-        margin: 10px auto;
-        opacity: 0.2;
-    }
-
-    .kategori_con button {
-        background: none;
-        border: none;
-        color: black;
-        cursor: pointer;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.1rem;
-    }
-
-
-    .kategori_con img:hover {
-        opacity: 0.9;
-    }
-
-    .kategori_con img:active {
-        opacity: 1;
-    }
-
-    .button_active {
-        opacity: 1;
-    }
-
-    nav {
-        align-items: center;
-    }
-
-    #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 90;
-        border: none;
-        outline: none;
-        background-color: #d9b0b6;
-        color: white;
-        cursor: pointer;
-        padding: 3px 15px;
-        border-radius: 30px;
-        font-size: 18px;
-    }
-
-    i {
-        border: solid white;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 3px;
-    }
-
-    .up {
-        transform: rotate(-135deg);
-        -webkit-transform: rotate(-135deg);
-        z-index: 95;
-    }
-
-
-    .layer {
-        opacity: 0;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 18.1vw;
-        height: 10vh;
-        background: #FFF;
-        color: #151E3F;
-        transition: all 0.9s ease;
-
-    }
-
-    .layer p {
-        text-align: center;
-        font-size: 1rem;
-        letter-spacing: 1px;
-
-        transition: all 0.9s ease;
-        transform: scale(0.1)
-    }
-
-    .detalje:hover .layer {
-        opacity: 0.8;
-        transition: all 0.5s ease;
-
-    }
-
-    .detalje:hover .layer p {
-        transform: scale(1);
-        transition: all 0.9s ease;
-    }
-
-    /***********OMOS***/
-    #billeder img {
-        width: 20%;
-        height: 20%;
-    }
-
-    #om_tekst {
-        width: 30vw;
-    }
-
-
-
-    /****************POPUP**************/
-
-    #popup {
-        height: 50vw;
-    }
-
-    #produkt_popup {
-        width: 30vw;
-        height: 30vw;
-    }
-
-    #produkt_popup .luk {
-        width: 30px;
-        top: 1vw;
-        right: 37vw;
-    }
-=======
   #ikon img {
     opacity: 1;
     width: 5vw;
@@ -833,32 +530,19 @@ p {
     height: 62vw;
   }
 
-  #forside_tekst {
-    padding: 0;
-    width: 32vw;
-    position: absolute;
-    top: 40%;
-    right: 5vw;
-  }
-
-  #forside_tekst p {
-    line-height: 2vw;
-  }
 
   #forside button {
-    width: 14vw;
+    width: 35vw;
+    height: 7vw;
     padding: 1vw;
     position: absolute;
-    right: 16vw;
-    top: 65%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     cursor: pointer;
-    transition: ease-in 0.5s;
+    font-size: 1.5rem;
+    opacity: 0.5;
   }
-
-  #forside button:hover {
-    transform: scale(1.1);
-  }
-
 
 
   /********* GALLERI *******/
@@ -897,13 +581,214 @@ p {
     opacity: 1;
   }
 
+  .button_active {
+    filter: grayscale(0);
+  }
+
+  nav {
+    align-items: center;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 90;
+    border: none;
+    outline: none;
+    background-color: #d9b0b6;
+    color: white;
+    cursor: pointer;
+    padding: 3px 15px;
+    border-radius: 30px;
+    font-size: 18px;
+  }
+
+  i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    z-index: 95;
+  }
+
+
+  .layer {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18.1vw;
+    height: 10vh;
+    background: #FFF;
+    color: #151E3F;
+    transition: all 0.9s ease;
+
+  }
+
+  .layer p {
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+    transition: all 0.9s ease;
+    transform: scale(0.1)
+  }
+
+  .detalje:hover .layer {
+    opacity: 0.8;
+    transition: all 0.5s ease;
+
+  }
+
+  .detalje:hover .layer p {
+    transform: scale(1);
+    transition: all 0.9s ease;
+  }
+
+  /***********OMOS***/
+  #billeder img {
+    width: 20%;
+    height: 20%;
+  }
+
+  #om_tekst {
+    width: 30vw;
+  }
+
+
+
+  /****************POPUP**************/
+
+  #popup {
+    height: 50vw;
+  }
+
+  #produkt_popup {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  #produkt_popup .luk {
+    width: 30px;
+    top: 1vw;
+    right: 37vw;
+  }
+
+  #ikon img {
+    opacity: 1;
+    width: 5vw;
+    margin-left: 2vw;
+  }
+
+  header {
+    height: 10vw;
+  }
+
+  header h1 {
+    font-size: 1.7rem;
+  }
+
+  header h2 {
+    font-size: 1.3rem;
+  }
+
+  header h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    display: block !important;
+  }
+
+  header h3:hover {
+    font-weight: bold;
+  }
+
+  #logo img {
+    height: 2vw;
+    margin: 0.5vw;
+  }
+
+  #knapper {
+    justify-content: space-around;
+  }
+
+  #knapper img {
+    display: none;
+  }
+
+  #ikon {
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #ikon img {
+    width: 5vw;
+    margin-left: 2vw;
+  }
+
+
+  /******** LANDING PAGE ********/
+  #forside {
+    width: 100vw;
+  }
+
+  #splash {
+    background-image: url(imgs/splash.jpg);
+    background-size: cover;
+    width: 100vw;
+  }
+
+
+
+
+  /********* GALLERI *******/
+  .kategori_con {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    grid-gap: 5px;
+  }
+
+  .kategori_con img {
+    border-radius: 50%;
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    opacity: 0.2;
+  }
+
+  .kategori_con button {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+  }
+
+
   .kategori_con img:hover {
+    opacity: 0.9;
+  }
+
+  .kategori_con img:active {
     opacity: 1;
   }
 
-  .button_active {
+  .kategori_con img:hover {
     opacity: 1;
-    font-weight: bold;
   }
 
   .button_active img {
@@ -912,10 +797,6 @@ p {
 
   button:hover {
     font-weight: bold;
-  }
-
-  button:focus {
-    outline: 0;
   }
 
   nav {
@@ -1005,8 +886,18 @@ p {
   }
 
   #produkt_popup {
-    width: 30vw;
-    height: 30vw;
+    width: 60vw;
+    height: 80vh;
+    top: -10vh;
+    left: 20vw;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  #produkt_popup img {
+    height: 100%;
+    width: auto;
   }
 
   #produkt_popup .luk {
@@ -1014,7 +905,22 @@ p {
     top: 1vw;
     right: 37vw;
   }
->>>>>>> origin/master
 
+  #poptxt {
+    margin: 50px 30px;
+  }
+
+  #poptxt h2 {
+    margin-bottom: 0;
+  }
+
+  #poptxt p {
+    margin-top: 30px;
+  }
+
+  #poptxt p:nth-child(2) {
+    margin-top: 0;
+    color: #9b9b9b;
+  }
 
 }
