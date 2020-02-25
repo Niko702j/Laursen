@@ -76,7 +76,7 @@ function filtrering() {
 
 
 
-//Burger menu
+//Burger menuuu
 
 const burger = document.querySelector("#burger");
 const nav = document.querySelector(".burgermenu");
