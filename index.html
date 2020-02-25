@@ -2,59 +2,79 @@
 <html lang="da">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laursen konditori</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-  <style>
-    body {
-      overflow: hidden;
-      background-color: #d9b0b6;
-    }
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laursen konditori</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        body {
+            overflow: hidden;
+            background-color: #d9b0b6;
+        }
 
-  </style>
+    </style>
 </head>
 
 <body>
 
-  <header id="forside_header">
-    <nav>
-      <div id="ikon"><img src="someicons_white.svg" alt="facebook og instagram ikoner"> </div>
-      <div id="logo"><a href="index.html">
-          <img src="imgs/logohvid.svg" alt="kagelogo i hvid">
-          <h1 style="color: white">Laursen konditori</h1><br>
-          <h2 style="color: white">Baking dreams come true</h2>
-        </a>
-      </div>
-      <div id="knapper">
-        <a href="galleri.html">
-          <h3 style="color: white">Galleri</h3>
-        </a>
-        <a href="omos.html">
-          <h3 style="color: white">Om os</h3>
-        </a>
-        <div id="burger"><img src="imgs/burger_hvid.svg" alt="Burgermenu ikon"></div>
-        <div id="kryds" class="hide"><img src="imgs/burger_sort.svg" alt="Kryds ikon"></div>
-      </div>
-    </nav>
-  </header>
+    <header id="forside_header">
+        <nav>
+            <div class="burgermenu">
 
-  <section id="forside">
-    <div id="splash">
-    </div>
-    <div id="forside_tekst">
-      <p>Hos os finder du de smukkeste kager, til enhver lejlighed. Med mere end 10 år i branchen kan du stole på at vi bringer erfaring og kvalitet til dit festbord.</p>
-    </div>
-    <div id="button">
-      <a href="galleri.html">
-        <button>Se kager</button>
-      </a>
-    </div>
-  </section>
+                <div id="kryds"><img src="imgs/kryds_hvid.svg" alt="Kryds ikon"></div>
+
+                <div class="burger_txt">
+                    <a href="index.html">
+                        <div>Forside
+                        </div>
+                    </a>
+
+                    <a href="omos.html">
+                        <div>Om os</div>
+                    </a>
+                    <a href="galleri.html">
+                        <div>Galleri</div>
+                    </a>
+                </div>
+            </div>
+            <div id="ikon"><img src="someicons_white.svg" alt="facebook og instagram ikoner"> </div>
+            <div id="logo"><a href="index.html">
+                    <img src="imgs/logohvid.svg" alt="kagelogo i hvid">
+                    <h1 style="color: white">Laursen konditori</h1><br>
+                    <h2 style="color: white">Baking dreams come true</h2>
+                </a>
+            </div>
+
+            <div id="knapper">
+                <a href="galleri.html">
+                    <h3 style="color: white">Galleri</h3>
+                </a>
+                <a href="omos.html">
+                    <h3 style="color: white">Om os</h3>
+                </a>
+                <div id="burger"><img src="imgs/burger_hvid.svg" alt="Burgermenu ikon"></div>
+                <div id="kryds" class="hide"><img src="imgs/burger_sort.svg" alt="Kryds ikon"></div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="forside">
+        <div id="splash">
+        </div>
+        <div id="forside_tekst">
+            <p>Hos os finder du de smukkeste kager, til enhver lejlighed. Med mere end 10 år i branchen kan du stole på at vi bringer erfaring og kvalitet til dit festbord.</p>
+        </div>
+        <div id="button">
+            <a href="galleri.html">
+                <button>Kage galleri</button>
+            </a>
+        </div>
+    </section>
 
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
