@@ -679,7 +679,11 @@ p {
     #produkt_popup .luk {
         width: 30px;
         top: 1vw;
+<<<<<<< HEAD
         left: 1vw;
+=======
+        right: 37vw;
+>>>>>>> master
     }
 
     #ikon img {
@@ -892,7 +896,11 @@ p {
     #produkt_popup {
         width: 60vw;
         height: 80vh;
+<<<<<<< HEAD
         top: 10vh;
+=======
+        top: -10vh;
+>>>>>>> master
         left: 20vw;
         display: flex;
         flex-direction: row;
