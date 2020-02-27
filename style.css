@@ -1,72 +1,72 @@
 /******** GENERELT ********/
 
 @font-face {
-  font-family: 'white_angelicaregular';
-  src: url('whiteangelica-webfont.woff2') format('woff2'),
-    url('whiteangelica-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'white_angelicaregular';
+    src: url('whiteangelica-webfont.woff2') format('woff2'),
+        url('whiteangelica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 #ikon img {
-  opacity: 0;
+    opacity: 0;
 }
 
 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 9999;
 }
 
 #forside_header {
-  position: fixed;
-  width: 100vw;
-  z-index: 9999;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
 }
 
 header h1 {
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0.8vw;
-  line-height: 0.1rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0.8vw;
+    line-height: 0.1rem;
 }
 
 header h2 {
-  font-family: 'white_angelicaregular';
-  font-size: 1rem;
-  font-weight: 100;
-  text-align: center;
-  margin-top: 0;
-  line-height: 0.1rem;
+    font-family: 'white_angelicaregular';
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0;
+    line-height: 0.1rem;
 }
 
 header h3 {
-  display: none;
+    display: none;
 }
 
 .hide {
-  display: none;
+    display: none;
 }
 
 .hide2 {
-  opacity: 0;
-  pointer-events: none;
+    opacity: 0;
+    pointer-events: none;
 }
 
 
@@ -76,30 +76,30 @@ header h3 {
 /******** HEADER ********/
 
 #logo img {
-  height: 6vw;
-  margin: 2vw;
+    height: 6vw;
+    margin: 2vw;
 }
 
 #logo {
-  text-align: center;
+    text-align: center;
 }
 
 #knapper {
-  width: 20vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 1vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1vw;
 }
 
 #knapper img {
-  height: 5vw;
-  margin-top: 9vw;
-  margin-right: 6vw;
+    height: 5vw;
+    margin-top: 9vw;
+    margin-right: 6vw;
 }
 
 #ikon {
-  width: 20vw;
+    width: 20vw;
 }
 
 
@@ -109,50 +109,50 @@ header h3 {
 /******** BURGER MENU ********/
 
 .burgermenu {
-  display: block;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 50vw;
-  height: 100%;
-  background-color: #d9b0b6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transform: translateX(100%);
-  transition: transform 0.5s ease-in;
-  z-index: 999;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 100%;
+    background-color: #d9b0b6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 999;
 }
 
 .burgermenu_active {
-  transform: translateX(0%);
+    transform: translateX(0%);
 }
 
 #kryds {
-  display: block;
-  margin-top: 35px;
-  height: 25px;
-  width: 25px;
+    display: block;
+    margin-top: 35px;
+    height: 25px;
+    width: 25px;
 }
 
 .burger_txt {
-  margin-top: 5px;
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 130px;
-  font-size: 1.2rem;
-  letter-spacing: 3px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 130px;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
 }
 
 .burger_txt a {
-  color: white;
-  font-weight: 100;
+    color: white;
+    font-weight: 100;
 }
 
 .burger_kategorier {
-  font-size: 0.7em;
-  text-transform: capitalize;
+    font-size: 0.7em;
+    text-transform: capitalize;
 }
 
 
@@ -169,31 +169,31 @@ header h3 {
 */
 
 #splash {
-  background-image: url(imgs/splash_mobil.jpg);
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+    background-image: url(imgs/splash_mobil.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 #kagegalleri {
-  z-index: 2;
-  width: 60vw;
-  padding: 3vw;
-  border: none;
-  background-color: white;
-  opacity: 0.7;
-  box-shadow: 0px 9px 24px 0px rgba(0, 0, 0, 1);
-  text-align: center;
-  position: absolute;
-  top: 50vh;
-  left: 20vw;
+    z-index: 2;
+    width: 60vw;
+    padding: 3vw;
+    border: none;
+    background-color: white;
+    opacity: 0.7;
+    box-shadow: 0px 9px 24px 0px rgba(0, 0, 0, 1);
+    text-align: center;
+    position: absolute;
+    top: 50vh;
+    left: 20vw;
 }
 
 #kagegalleri a {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  line-height: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 2rem;
 }
 
 
@@ -203,54 +203,54 @@ header h3 {
 /******** OM OS ********/
 
 #damerne {
-  width: 100%;
+    width: 100%;
 }
 
 #damerne div {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #billeder {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #billeder img {
-  width: 30%;
-  height: 30%;
-  margin: 30px 30px 0 30px;
+    width: 30%;
+    height: 30%;
+    margin: 30px 30px 0 30px;
 }
 
 footer {
-  width: 100%;
+    width: 100%;
 }
 
 footer img {
-  width: 100%;
+    width: 100%;
 }
 
 #om_tekst {
-  width: 80vw;
-  margin: 0 auto;
+    width: 80vw;
+    margin: 0 auto;
 }
 
 #om_tekst h3 {
-  text-align: center;
+    text-align: center;
 }
 
 #kontakt {
-  width: 80vw;
+    width: 80vw;
 
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #adresse {
-  text-align: center;
-  margin-left: 10vw;
-  margin-right: 10vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 
@@ -260,54 +260,54 @@ footer img {
 /******** GALLERI ********/
 
 .kategori_con {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1200px;
-  grid-gap: 5px;
-  margin: 30px 7px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    grid-gap: 5px;
+    margin: 30px 7px;
 }
 
 .kategori_con button {
-  background: none;
-  border: none;
-  padding: 2px;
-  background-color: #d9b0b6;
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.1rem;
-  padding: 4px;
+    background: none;
+    border: none;
+    padding: 2px;
+    background-color: #d9b0b6;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    padding: 4px;
 }
 
 .data_con img {
-  cursor: pointer;
-  max-width: 100%;
+    cursor: pointer;
+    max-width: 100%;
 }
 
 .kategori_con img {
-  display: none;
+    display: none;
 }
 
 .data_con {
-  justify-content: space-between;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
-  grid-gap: 25px;
-  max-width: 1000px;
-  margin: 0 auto;
-  margin-top: 50px;
-  padding: 20px;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+    grid-gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
 }
 
 button:focus {
-  outline: 0;
+    outline: 0;
 }
 
 .button_active {
-  opacity: 1;
-  font-weight: bold;
-  filter: grayscale(0.7);
+    opacity: 1;
+    font-weight: bold;
+    filter: grayscale(0.7);
 }
 
 
@@ -317,45 +317,45 @@ button:focus {
 /******** POPUP ********/
 
 #popup {
-  position: fixed;
-  z-index: 999;
+    position: fixed;
+    z-index: 999;
 }
 
 #produkt_popup {
-  background-color: white;
-  width: 100vw;
-  height: 100vh;
-  overflow-x: scroll;
-  position: absolute;
-  top: 0;
-  left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: scroll;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #produkt_popup img {
-  width: 100%;
+    width: 100%;
 }
 
 #produkt_popup h2,
 p {
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .layer {
-  display: none;
+    display: none;
 }
 
 #produkt_popup .luk {
-  background-image: url(imgs/kryds_hvid.svg);
-  background-size: cover;
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  top: 5vw;
-  right: 5vw;
+    background-image: url(imgs/kryds_hvid.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5vw;
+    right: 5vw;
 }
 
 #poptxt p:nth-child(2) {
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 
@@ -371,260 +371,260 @@ p {
 
 @media only screen and (min-width: 900px) {
 
-  nav {
-    align-items: center;
-  }
+    nav {
+        align-items: center;
+    }
 
-  /******** HEADER ********/
+    /******** HEADER ********/
 
-  header h1 {
-    font-size: 1.7rem;
-  }
+    header h1 {
+        font-size: 1.7rem;
+    }
 
-  header h2 {
-    font-size: 1.3rem;
-  }
+    header h2 {
+        font-size: 1.3rem;
+    }
 
-  header h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 100;
-    display: block !important;
-  }
+    header h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 100;
+        display: block !important;
+    }
 
-  header h3:hover {
-    font-weight: 500;
-  }
+    header h3:hover {
+        font-weight: 500;
+    }
 
-  #logo img {
-    height: 2vw;
-    margin: 0.5vw;
-  }
+    #logo img {
+        height: 2vw;
+        margin: 0.5vw;
+    }
 
-  #knapper {
-    justify-content: space-around;
-  }
+    #knapper {
+        justify-content: space-around;
+    }
 
-  #knapper img {
-    display: none;
-  }
+    #knapper img {
+        display: none;
+    }
 
-  #ikon {
-    width: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-  }
+    #ikon {
+        width: 20vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 
-  #ikon img {
-    opacity: 1;
-    width: 5vw;
-    margin-left: 2vw;
-  }
-
-
-
-
-
-  /******** LANDING PAGE ********/
-
-  #splash {
-    background-image: url(imgs/splash.jpg);
-    background-size: cover;
-    width: 100vw;
-  }
-
-
-  #kagegalleri {
-    width: 36vw;
-    height: 7vw;
-    top: 30vw;
-    left: 32vw;
-    padding: 1vw;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: ease-in-out all 0.5s;
-    text-align: center;
-  }
-
-  #kagegalleri a {
-    font-size: 1.5rem;
-    letter-spacing: 5px;
-  }
-
-  #kagegalleri:hover a {
-    letter-spacing: 8px;
-    font-weight: 100;
-  }
+    #ikon img {
+        opacity: 1;
+        width: 5vw;
+        margin-left: 2vw;
+    }
 
 
 
 
 
-  /******** OM OS ********/
+    /******** LANDING PAGE ********/
 
-  #billeder img {
-    width: 20%;
-    height: 20%;
-  }
-
-  #om_tekst {
-    width: 30vw;
-  }
+    #splash {
+        background-image: url(imgs/splash.jpg);
+        background-size: cover;
+        width: 100vw;
+    }
 
 
+    #kagegalleri {
+        width: 36vw;
+        height: 7vw;
+        top: 30vw;
+        left: 32vw;
+        padding: 1vw;
+        cursor: pointer;
+        opacity: 0.5;
+        text-align: center;
+    }
 
+    #kagegalleri a {
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        transition: ease-in-out all 0.5s;
+    }
 
-
-  /******** GALLERI ********/
-
-  .kategori_con {
-    grid-template-columns: repeat(5, 1fr);
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-
-  .kategori_con img {
-    border-radius: 50%;
-    width: 50%;
-    display: block;
-    margin: 10px auto;
-    opacity: 0.3;
-  }
-
-  .kategori_con button {
-    color: black;
-    background-color: transparent;
-  }
-
-  .kategori_con img:hover {
-    opacity: 0.9;
-  }
-
-  button:hover {
-    font-weight: bold;
-  }
-
-  .button_active {
-    filter: grayscale(0);
-    opacity: 1;
-  }
-
-  .button_active img {
-    filter: grayscale(0);
-    opacity: 1;
-  }
-
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    border: none;
-    outline: none;
-    background-color: #d9b0b6;
-    color: white;
-    cursor: pointer;
-    padding: 3px 15px;
-    border-radius: 30px;
-    font-size: 18px;
-    transition: all ease-in-out 2s;
-  }
-
-  i {
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
-
-  .up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-  }
-
-  .detalje {
-    position: relative;
-  }
-
-  .layer {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    width: 100%;
-    background: #FFF;
-    color: #151E3F;
-    transition: all 0.9s ease;
-    cursor: pointer;
-  }
-
-  .layer p {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    transition: all 0.9s ease;
-    text-align: center;
-  }
-
-  .detalje:hover .layer {
-    opacity: 0.8;
-    transition: all 0.5s ease;
-  }
-
-  .detalje:hover .layer .kasse_hvid p {
-    transform: scale(1);
-    transition: all 0.9s ease;
-  }
-
-  .blur {
-    filter: blur(3px);
-    transition: ease-in-out 0.3s;
-  }
+    #kagegalleri:hover a {
+        letter-spacing: 8px;
+        font-weight: 100;
+    }
 
 
 
 
 
-  /******** POPUP ********/
+    /******** OM OS ********/
 
-  #produkt_popup {
-    width: 60vw;
-    height: 80vh;
-    top: 10vh;
-    left: 20vw;
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-  }
+    #billeder img {
+        width: 20%;
+        height: 20%;
+    }
 
-  #produkt_popup img {
-    height: 100%;
-    width: auto;
-  }
+    #om_tekst {
+        width: 30vw;
+    }
 
-  #produkt_popup .luk {
-    background-image: url(imgs/kryds_sort.svg);
-    top: 1vw;
-    left: 57.5vw;
-  }
 
-  #poptxt {
-    margin: 50px 30px;
-  }
 
-  #poptxt h2 {
-    margin-bottom: 0;
-  }
 
-  #poptxt p {
-    margin-top: 30px;
-  }
 
-  #poptxt p:nth-child(2) {
-    margin-top: 0;
-    color: #9b9b9b;
-  }
+    /******** GALLERI ********/
+
+    .kategori_con {
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .kategori_con img {
+        border-radius: 50%;
+        width: 50%;
+        display: block;
+        margin: 10px auto;
+        opacity: 0.3;
+    }
+
+    .kategori_con button {
+        color: black;
+        background-color: transparent;
+    }
+
+    .kategori_con img:hover {
+        opacity: 0.9;
+    }
+
+    button:hover {
+        font-weight: bold;
+    }
+
+    .button_active {
+        filter: grayscale(0);
+        opacity: 1;
+    }
+
+    .button_active img {
+        filter: grayscale(0);
+        opacity: 1;
+    }
+
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        border: none;
+        outline: none;
+        background-color: #d9b0b6;
+        color: white;
+        cursor: pointer;
+        padding: 3px 15px;
+        border-radius: 30px;
+        font-size: 18px;
+        transition: all ease-in-out 2s;
+    }
+
+    i {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+
+    .detalje {
+        position: relative;
+    }
+
+    .layer {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        background: #FFF;
+        color: #151E3F;
+        transition: all 0.9s ease;
+        cursor: pointer;
+    }
+
+    .layer p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        transition: all 0.9s ease;
+        text-align: center;
+    }
+
+    .detalje:hover .layer {
+        opacity: 0.8;
+        transition: all 0.5s ease;
+    }
+
+    .detalje:hover .layer .kasse_hvid p {
+        transform: scale(1);
+        transition: all 0.9s ease;
+    }
+
+    .blur {
+        filter: blur(3px);
+        transition: ease-in-out 0.3s;
+    }
+
+
+
+
+
+    /******** POPUP ********/
+
+    #produkt_popup {
+        width: 60vw;
+        height: 80vh;
+        top: 10vh;
+        left: 20vw;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    #produkt_popup img {
+        height: 100%;
+        width: auto;
+    }
+
+    #produkt_popup .luk {
+        background-image: url(imgs/kryds_sort.svg);
+        top: 1vw;
+        left: 57.5vw;
+    }
+
+    #poptxt {
+        margin: 50px 30px;
+    }
+
+    #poptxt h2 {
+        margin-bottom: 0;
+    }
+
+    #poptxt p {
+        margin-top: 30px;
+    }
+
+    #poptxt p:nth-child(2) {
+        margin-top: 0;
+        color: #9b9b9b;
+    }
 
 
 
