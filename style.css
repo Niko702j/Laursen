@@ -454,7 +454,6 @@ p {
 
   #kagegalleri {
     width: 36vw;
-    height: 7vw;
     top: 50%;
     left: 32vw;
     padding: 1vw;
@@ -467,6 +466,7 @@ p {
     font-size: 1.5rem;
     letter-spacing: 5px;
     transition: ease-in-out all 0.5s;
+    line-height: 3rem;
   }
 
   #kagegalleri:hover a {
