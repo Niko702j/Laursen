@@ -15,7 +15,7 @@
   </style>
 </head>
 
-<body>
+<body id="splash">
 
   <header id="forside_header">
     <nav>
@@ -56,18 +56,37 @@
     </nav>
   </header>
 
-  <section id="forside">
-    <div id="button">
-      <a href="galleri.html">
-        Kage galleri
-      </a>
-    </div>
-    <div id="splash">
-    </div>
-  </section>
+
+  <button id="kagegalleri">
+    <a href="galleri.html">
+      Kage galleri
+    </a>
+  </button>
 
 
-  <script src="script.js"></script>
+
+  <script>
+    //Sørger for at alt DOM content er loaded
+    document.addEventListener("DOMContentLoaded", start);
+
+    const burger = document.querySelector("#burger");
+    const nav = document.querySelector(".burgermenu");
+    const kryds = document.querySelector("#kryds");
+
+    function start() {
+      //Gør burgermenuknappen klikbar
+      burger.addEventListener("click", () => {
+        nav.classList.add("burgermenu_active");
+      });
+
+      //Tilføjer en luk-funktion til burgermenuen
+      kryds.addEventListener("click", () => {
+        console.log("kryds click")
+        nav.classList.remove("burgermenu_active");
+      });
+    }
+
+  </script>
 </body>
 
 </html>
